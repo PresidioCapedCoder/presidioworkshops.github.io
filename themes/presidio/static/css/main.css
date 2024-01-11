@@ -72,3 +72,25 @@ figure {
     margin-top:0;
   }
 }
+
+.banner-container {
+  position: relative;
+  background-image: url('/img/banner-image.jpg');
+  background-size: cover; /* ensures the image covers the div without distortion */
+  background-position: center; /* centers the image */
+  width: 100%;
+  height: 200px; /* you can adjust this value to set the desired height */
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;  /* centers the text vertically */
+  left: 43%; /* centers the text horizontally */
+  transform: translate(-50%, -50%);
+  color: white; /* or any color you prefer */
+  font-size: 75px; /* adjust as needed */
+  font-family: sans-serif;
+  font-weight: 550;
+  /* rest of your styles */
+  /* Additional styling as needed */
+}

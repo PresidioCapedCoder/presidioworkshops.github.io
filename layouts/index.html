@@ -1,11 +1,17 @@
 {{ .Scratch.Set "BodyClass" "cards-pf" }}{{ partial "header" . }}
 
+<div class="banner-container">
+  <div class="overlay-text">
+    {{ .Site.Params.Description }}
+  </div>
+</div>
 
-
+<!--
 <div class="jumbotron jumbotron-home text-center">
   <h1>{{ .Site.Title }}</h1>
   <h2>{{ .Site.Params.Description }}</h2>
 </div>
+-->
 
 <div class="container container-cards-pf">
   <div class="row row-cards-pf">
